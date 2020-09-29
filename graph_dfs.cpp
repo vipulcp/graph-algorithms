@@ -49,6 +49,9 @@ public:
 
 	void dfs(T src){
 		map<T,bool> visited;
+		for(auto p:adjList){
+			T.node=p.first;
+			visited[node]=false;
 		dfsHelper(src,visited);
 	}
 };
